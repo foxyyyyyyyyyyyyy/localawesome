@@ -1,0 +1,50 @@
+{
+  "name": "localawesome",
+  "version": "1.0.0",
+  "description": "A simple React component for rendering Font Awesome icons with configurable CSS URL.",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "bun run build"
+  },
+  "keywords": [
+    "react",
+    "font-awesome",
+    "icon",
+    "component",
+    "css",
+    "configurable"
+  ],
+  "author": "Faian Maier <info@maierfabian.de>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.48",
+    "rollup": "^4.9.6",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-fontawesome-icon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-fontawesome-icon/issues"
+  },
+  "homepage": "https://github.com/yourusername/react-fontawesome-icon#readme"
+}
