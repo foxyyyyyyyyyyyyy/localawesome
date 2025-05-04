@@ -25,8 +25,8 @@
   "author": "Faian Maier <info@maierfabian.de>",
   "license": "MIT",
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+   "react": ">^19.0.0",
+    "react-dom": ">^19.0.0",
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
