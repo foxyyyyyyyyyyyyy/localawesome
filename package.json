@@ -1,6 +1,6 @@
 {
   "name": "localawesome",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple React component for rendering Font Awesome icons with configurable CSS URL.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -25,8 +25,8 @@
   "author": "Faian Maier <info@maierfabian.de>",
   "license": "MIT",
   "peerDependencies": {
-   "react": ">^19.0.0",
-    "react-dom": ">^19.0.0",
+   "react": "*",
+    "react-dom": "*"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
